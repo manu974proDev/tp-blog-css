@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+body,html{
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87);
+    margin: 0;
+    line-height: 1.6;
+    font-weight: 500;
+    background: rgba(204, 204, 204, 0.663);
+}
+
+
+.reseau-social-image{
+    height: 16px;
+    font-family: "Montserrat",sans-serif;
+    color: #9F9F9F;
+    padding: 0 12px;
+    line-height: 20px;
+    
+}
+
+.reseau-social-image:hover{
+    color: #131212;
+}
+
+
+.topbar{
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    top:0;
+    left:0;
+    right: 0;
+    width: 100%;
+    padding: 13px 87px;
+    z-index: 3;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+     ;
+    
+    
+    
+}
+
+.topbar nav{
+    float: left;
+    padding: 30px;
+}
+
+.topbar .social{
+    float: right;
+    padding: 20px 0;
+}
+
+.topbar nav a{
+    color: #9F9F9F;
+    font-weight: 500;
+    padding: 0 25px;
+}
+
+.banniere{
+    height: 375px;
+    background:no-repeat center center/ cover url(./image/banniere-site\ -grafikart-etude.jpg) ;
+   
+}
+
+.main{
+    float: left;
+    width: 30%;
+    background: #fff;
+    width:70%;   
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.514);
+    position: relative;
+    z-index: 2;
+    margin-top: 2px;
+
+}
+
+.sidebar{
+    position: relative;
+    float: right;
+    width: 30%;
+    padding: 40px;
+    background: rgba(204, 204, 204, 0);
+    font-size: 17px;
+    z-index: 1;
+    height: 100%;
+}
+
+.sidebar-title{
+    font-size: 30px;
+    color: #000;
+    margin: 15px 0;
+}
+
+.sidebar-title:first-child{
+    margin-top: 0;
+}
+
+.sidebar a{
+    color: #9F9F9F;
+    text-decoration: none;
+}
+
+.sidebar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 2.3;
+}
+
+.sidebar a:hover{
+    text-decoration: underline;
+}
+
+.sidebar li{
+    padding: 3px 0;
+}
+
+.sidebar li:first-child{
+    padding-top: 0;
+}
+
+.sidebar li:last-child{
+    padding-bottom: 0;
+}
+
+.sidebar hr {
+    background: #c4c4c4;
+    height: 2px;
+    margin: 50px 0;
+}
+.container{
+    margin:0 auto;
+    max-width: 940px;
+}
+
+.article{
+    position: relative;
+    margin: 50px auto;
+    min-height: 203px;
+    max-width: 500px;
+    padding-left:280px; 
+}
+
+.article a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.article a:hover{
+    text-decoration: underline;
+}
+
+.article-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    float: left;
+    width: 250px;
+    margin-right: 25px;    
+}
+.article-date{
+    font-weight: 300;
+    color: rgba(0, 0, 0, .6);
+    margin-bottom: 5px;
+}
+
+article-img img{
+    width: 100%;
+    height: auto;
+}
+
+.article-title{
+    font-size: 1.8rem;
+    line-height: 1.2;
+    font-family:"Cardo",serif ;
+    letter-spacing: 0.2rem;
+    margin: 0 0 15px 0;
+}
+
+.footer{
+    clear: both;
+}
